@@ -9,7 +9,7 @@ const header = () => {
                 <LinkContainer to="/">
                 <Navbar.Brand href="#home">
                     <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+                        src="https://www.pngall.com/wp-content/uploads/1/Sports-PNG-Pic.png"
                         width="60"
                         height="50"
                         className="d-inline-block align-top"
@@ -30,6 +30,33 @@ const header = () => {
                     <LinkContainer to="/feedback">
                         <Nav.Link>Feedback</Nav.Link>
                     </LinkContainer>
+
+                    <NavDropdown title="Sports" id="basic-nav-dropdown">
+                        <NavDropdown.Item>
+                            <LinkContainer to="/soccer">
+                                <Nav.Link>Soccer</Nav.Link>
+                            </LinkContainer>
+                        </NavDropdown.Item>
+
+                        <NavDropdown.Item>
+                            <LinkContainer to="/basketball">
+                                <Nav.Link>Basket Ball</Nav.Link>
+                            </LinkContainer>
+                        </NavDropdown.Item>
+
+                        <NavDropdown.Item>
+                            <LinkContainer to="/boxing">
+                                <Nav.Link>Boxing</Nav.Link>
+                            </LinkContainer>
+                        </NavDropdown.Item>
+
+                        <NavDropdown.Item>
+                            <LinkContainer to="/yoga">
+                                <Nav.Link>Yoga</Nav.Link>
+                            </LinkContainer>
+                        </NavDropdown.Item>
+
+                    </NavDropdown>
                     
                 </Nav>
 
@@ -42,7 +69,7 @@ const header = () => {
                         </NavDropdown.Item>
 
                         <NavDropdown.Item>
-                            <LinkContainer to="/Login">
+                            <LinkContainer to="/login">
                                 <Nav.Link>Login</Nav.Link>
                             </LinkContainer>
                         </NavDropdown.Item>

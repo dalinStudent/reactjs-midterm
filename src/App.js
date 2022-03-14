@@ -8,6 +8,10 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import Feedback from "./components/Feedback";
 import Contact from "./components/Contact";
+import Soccer from "./components/pages/Soccer";
+import Basketball from "./components/pages/Basketball";
+import Boxing from "./components/pages/Boxing";
+import Yoga from "./components/pages/Yoga";
 
 function App() {
 
@@ -18,6 +22,10 @@ ReactDOM.render(
             <Route exact path="/" element={<Header />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/feedback" element={<Feedback />} />
+            <Route path="/soccer" element={<Soccer />} />
+            <Route path="/boxing" element={<Boxing />} />
+            <Route path="/yoga" element={<Yoga />} />
+            <Route path="/basketball" element={<Basketball />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
           </Routes>
