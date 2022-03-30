@@ -7,7 +7,7 @@ const header = () => {
         <Navbar bg="light" expand="lg">
             <Container fluid>
                 <LinkContainer to="/home">
-                <Navbar.Brand>
+                <Navbar.Brand href="/home">
                     <img
                         src="https://www.pngall.com/wp-content/uploads/1/Sports-PNG-Pic.png"
                         width="60"
@@ -80,6 +80,7 @@ const header = () => {
             </Container>
             
         </Navbar>
+        
     )
 }
 

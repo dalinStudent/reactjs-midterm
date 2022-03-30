@@ -12,6 +12,7 @@ import Soccer from "./components/pages/Soccer";
 import Basketball from "./components/pages/Basketball";
 import Boxing from "./components/pages/Boxing";
 import Yoga from "./components/pages/Yoga";
+import Home from "./components/Home";
 
 function App() {
 
@@ -20,6 +21,7 @@ ReactDOM.render(
        <Router>
           <Routes>
             <Route exact path="/" element={<Header />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/feedback" element={<Feedback />} />
             <Route path="/soccer" element={<Soccer />} />
