@@ -6,8 +6,8 @@ const header = () => {
     return (
         <Navbar bg="light" expand="lg">
             <Container fluid>
-                <LinkContainer to="/">
-                <Navbar.Brand href="#home">
+                <LinkContainer to="/home">
+                <Navbar.Brand>
                     <img
                         src="https://www.pngall.com/wp-content/uploads/1/Sports-PNG-Pic.png"
                         width="60"
@@ -19,7 +19,7 @@ const header = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
-                    <LinkContainer to="#home">
+                    <LinkContainer to="/home">
                         <Nav.Link>Home</Nav.Link>
                     </LinkContainer>
 

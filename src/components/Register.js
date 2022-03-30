@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { Container, Row, Col , Card, Form, Button} from 'react-bootstrap';
-// import { Routes,Route, BrowserRouter } from 'react-router-dom';
-// import { Home} from './Home';
-// import { Login } from './Login';
+import { useNavigate } from "react-router-dom";
 
 function RegisterForm () {
 
+    const navigate = useNavigate();
     const [validated, setValidated] = useState(false);
  
     const handleSubmit = (event) => {
@@ -13,10 +12,9 @@ function RegisterForm () {
     if (form.checkValidity() === false) {
       event.preventDefault();
       event.stopPropagation();
-        // this.props.history.push('/home');
     }
-
     setValidated(true);
+
   };
 
     return (

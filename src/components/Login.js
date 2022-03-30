@@ -12,7 +12,6 @@ function LoginForm () {
     if (form.checkValidity() === false) {
       event.preventDefault();
       event.stopPropagation();
-      navigate('/home');
     }
 
     setValidated(true);
