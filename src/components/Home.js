@@ -5,7 +5,7 @@ function Home() {
     return (
         <Container fluid>
             <Header></Header>
-            <body>
+                <body>
 
                 <header class="py-5">
                     <ul class="slideshow mt-5">
@@ -58,7 +58,7 @@ function Home() {
                                     <div class="col-lg-4 col-md-4 col-12">
                                         <div class="list-service in-view" data-animate-in="left">
                                             <Card.Img variant="top" src="https://cuttongarments.com/wp-content/uploads/2017/12/ADDIDAS-1.png" />
-                                            <p><h4>adidas</h4></p>
+                                            <p><h4>Addidas</h4></p>
                                             <p>assorted sports balls,</p>
                                             <p>Basketball Football</p>
                                             <a href="https://www.adidas.com/us/originals"><h5>Details</h5></a>
@@ -71,7 +71,7 @@ function Home() {
                                             <p><h4>Puma</h4></p>
                                             <p>assorted sports balls,</p>
                                             <p>Basketball Football</p>
-                                            <a href="https://www.adidas.com/us/originals"><h5>Details</h5></a>
+                                            <a href="https://au.puma.com/mens/shoes/football.html"><h5>Details</h5></a>
                                             <br></br>
                                         </div>
                                     </div>
@@ -81,7 +81,7 @@ function Home() {
                                             <p><h4>Nike </h4></p>
                                             <p>assorted sports balls,</p>
                                             <p>Basketball Football</p>
-                                            <a href="https://www.adidas.com/us/originals"><h5>Details</h5></a>
+                                            <a href="https://www.nike.com/ma/en/"><h5>Details</h5></a>
                                             <br></br>
                                         </div>
                                     </div>
@@ -91,7 +91,7 @@ function Home() {
                                             <p><h4>Liverpool FC</h4></p>
                                             <p>assorted sports balls,</p>
                                             <p>Basketball Football</p>
-                                            <a href="https://www.adidas.com/us/originals"><h5>Details</h5></a>
+                                            <a href="https://www.liverpoolfc.com/"><h5>Details</h5></a>
                                             <br></br>
                                             
                                         </div>
@@ -102,7 +102,7 @@ function Home() {
                                             <p><h4>Manchester City FC</h4></p>
                                             <p>assorted sports balls,</p>
                                             <p>Basketball Football</p>
-                                            <a href="https://www.adidas.com/us/originals"><h5>Details</h5></a>
+                                            <a href="https://www.manutd.com/"><h5>Details</h5></a>
                                             <br></br>
                                         </div>
                                     </div>
@@ -281,10 +281,6 @@ function Home() {
 
 
             </body>
-
-
-
-
         </Container>
     )
 }
