@@ -18,16 +18,15 @@ function Home() {
 
                     </ul>
 
-                    <div class="text-slide container px-5 button-home">
-                        <div class="row gx-5 justify-content-center">
+                    <div class="text-slide  px-5 button-home">
+                        <div class=" container row gx-5 justify-content-center">
                             <div class="col-lg-6">
                                 <div class="text-center my-5">
 
-                                    <div><div class="text mt-5">
-                                        {/* <h1 class="display-5 fw-bolder text-white mb-2">Present your business in a whole new way</h1> */}
-                                        {/* <h1> CREATIVE & EXPERIENCED </h1> */}
+                                    <div><div class="text mt-5 text-center">
+                                        
                                         <h2> WE ARE THE ONE OF THE WORLD'S TOP CREATIVE DESIGN AGENCIES </h2>
-                                        <p class="lead text-white-50 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit!</p>
+                                        <p class="lead text-white-50 mb-4 tex-center">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit!</p>
                                         <div class="button-slide d-grid gap-3 d-sm-flex justify-content-sm-center">
                                             <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a>
                                             <a class="btn btn-outline-light btn-lg px-4" href="#!">Learn More</a>
@@ -60,42 +59,61 @@ function Home() {
                                         <div class="list-service in-view" data-animate-in="left">
                                             <Card.Img variant="top" src="https://cuttongarments.com/wp-content/uploads/2017/12/ADDIDAS-1.png" />
                                             <p><h4>adidas</h4></p>
-                                            <p>Web Development</p>
+                                            <p>assorted sports balls,</p>
+                                            <p>Basketball Football</p>
+                                            <a href="https://www.adidas.com/us/originals"><h5>Details</h5></a>
+                                            <br></br>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-4 col-12">
+                                    <div class="col-lg-4 col-md-4 col-12 ">
                                         <div class="list-service in-view" data-animate-in="left">
                                             <Card.Img variant="top" src="https://www.vectorkhazana.com/assets/images/products/Puma-logo-black.jpg" />
                                             <p><h4>Puma</h4></p>
-                                            <p>Software Development</p>
+                                            <p>assorted sports balls,</p>
+                                            <p>Basketball Football</p>
+                                            <a href="https://www.adidas.com/us/originals"><h5>Details</h5></a>
+                                            <br></br>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-12">
                                         <div class="list-service in-view" data-animate-in="left">
                                             <Card.Img variant="top" src="https://wallpapercave.com/wp/wp7767856.png" />
                                             <p><h4>Nike </h4></p>
-                                            <p>Mobile App Development</p>
+                                            <p>assorted sports balls,</p>
+                                            <p>Basketball Football</p>
+                                            <a href="https://www.adidas.com/us/originals"><h5>Details</h5></a>
+                                            <br></br>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-4 col-12">
+                                    <div class="col-lg-4 col-md-4 col-12 mt-5">
                                         <div class="list-service in-view" data-animate-in="left">
                                             <Card.Img variant="top" src="https://preview.redd.it/2cqot677n8e51.png?auto=webp&s=91b94a671c4fbdb77a36c6385df9926078ab67d2" />
                                             <p><h4>Liverpool FC</h4></p>
-                                            <p>E-commerce Website</p>
+                                            <p>assorted sports balls,</p>
+                                            <p>Basketball Football</p>
+                                            <a href="https://www.adidas.com/us/originals"><h5>Details</h5></a>
+                                            <br></br>
+                                            
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-4 col-12">
+                                    <div class="col-lg-4 col-md-4 col-12 mt-5">
                                         <div class="list-service in-view" data-animate-in="left">
                                             <Card.Img variant="top" src="https://e7.pngegg.com/pngimages/861/537/png-clipart-manchester-united-f-c-premier-league-manchester-city-f-c-chelsea-f-c-manchester-united-logo-text-sport-thumbnail.png" />
                                             <p><h4>Manchester City FC</h4></p>
-                                            <p>Domain Register &amp; Hosting</p>
+                                            <p>assorted sports balls,</p>
+                                            <p>Basketball Football</p>
+                                            <a href="https://www.adidas.com/us/originals"><h5>Details</h5></a>
+                                            <br></br>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-4 col-12">
+                                    <div class="col-lg-4 col-md-4 col-12 mt-5">
                                         <div class="list-service in-view" data-animate-in="left">
                                             <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrNaB9kezYOD69JjQbPlniSB-s6MHCTj1YC56wH27LvRetq-KrD-RltgDfM6fUrz_U2Ws&usqp=CAU" />
                                             <p><h2>Chelsea FC</h2></p>
-                                            <p>Graphic Design</p>
+                                            <p>assorted sports balls,</p>
+                                            <p>Basketball Football</p>
+                                            <a href="https://www.adidas.com/us/originals"><h5>Details</h5></a>
+                                            <br></br>
                                         </div>
                                     </div>
                                 </div>
@@ -105,6 +123,7 @@ function Home() {
                 </div>
 
               
+
 
                 <div class="wrapper-how-we-work">
                     <div class="container">
@@ -153,7 +172,7 @@ function Home() {
                             <div class="col-sm-7">
                                 <div class="adhd-top-vision in-view" data-animate-in="up">
                                     <div class="adhd-top-img">
-                                        <Card.Img variant="top" src="http://theyellowjacket.org/wp-content/uploads/2020/09/134-all-sports-balls.jpg" />
+                                        <Card.Img variant="top" src="https://www.seekpng.com/png/detail/206-2069166_real-madrid-team-png.png" />
                                     </div>
                                 </div>
                             </div>
@@ -161,9 +180,8 @@ function Home() {
                     </div>
                 </div>
 
-
                 <div class="text-center mt-5"><h2 class="fw-bolder">Get in touch</h2>
-                    <p class="lead mb-0">We'd love to hear from you</p></div>
+                    <h4 class="lead-m mb-5">We'd love to hear from you</h4></div>
                 <div class="container-home d-flex align-items-center justify-content-center flex-wrap">
 
                     <div class="box">
@@ -207,7 +225,7 @@ function Home() {
 
 
                 {/* <!-- Footer--> */}
-                <footer class="py-5 bg-dark">
+                <footer class="footer-home py-5 bg-dark mt-5">
                     <div class="container p-4">
 
                         <div class="row text-white">
